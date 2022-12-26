@@ -33645,7 +33645,7 @@
     <peripheral>
       <addressBlock>
         <offset>0</offset>
-        <size>0x0100</size>
+        <size>0x0104</size>
         <usage>registers</usage>
       </addressBlock>
       <baseAddress>0x50100000</baseAddress>
@@ -34110,6 +34110,10 @@
         <register derivedFrom="EP0_IN_BUFFER_CONTROL">
           <addressOffset>0x00fc</addressOffset>
           <name>EP15_OUT_BUFFER_CONTROL</name>
+        </register>
+        <register derivedFrom="EP1_IN_CONTROL">
+          <addressOffset>0x0100</addressOffset>
+          <name>EPX_CONTROL</name>
         </register>
       </registers>
       <size>32</size>
