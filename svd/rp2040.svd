@@ -33645,7 +33645,7 @@
     <peripheral>
       <addressBlock>
         <offset>0</offset>
-        <size>0x0100</size>
+        <size>0x0104</size>
         <usage>registers</usage>
       </addressBlock>
       <baseAddress>0x50100000</baseAddress>
@@ -39243,6 +39243,79 @@
             </field>
           </fields>
           <name>EP15_OUT_BUFFER_CONTROL</name>
+          <resetValue>0x00000000</resetValue>
+        </register>
+        <register>
+          <addressOffset>0x0100</addressOffset>
+          <name>EPX_CONTROL</name>
+          <fields>
+            <field>
+              <access>read-write</access>
+              <bitRange>[31:31]</bitRange>
+              <description>Enable this endpoint. The device will not reply to any packets for this endpoint if this bit is not set.</description>
+              <name>ENABLE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[30:30]</bitRange>
+              <description>This endpoint is double buffered.</description>
+              <name>DOUBLE_BUFFERED</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[29:29]</bitRange>
+              <description>Trigger an interrupt each time a buffer is done.</description>
+              <name>INTERRUPT_PER_BUFF</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[28:28]</bitRange>
+              <description>Trigger an interrupt each time both buffers are done. Only valid in double buffered mode.</description>
+              <name>INTERRUPT_PER_DOUBLE_BUFF</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[27:26]</bitRange>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>Control</name>
+                  <value>0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Isochronous</name>
+                  <value>1</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Bulk</name>
+                  <value>2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>Interrupt</name>
+                  <value>3</value>
+                </enumeratedValue>
+              </enumeratedValues>
+              <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[17:17]</bitRange>
+              <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
+              <name>INTERRUPT_ON_STALL</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[16:16]</bitRange>
+              <description>Trigger an interrupt if a NAK is sent. Intended for debug only.</description>
+              <name>INTERRUPT_ON_NAK</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[15:0]</bitRange>
+              <description>64 byte aligned buffer address for this EP (bits 0-5 are ignored). Relative to the start of the DPRAM.</description>
+              <name>BUFFER_ADDRESS</name>
+            </field>
+          </fields>
+          <name>EP1_IN_CONTROL</name>
           <resetValue>0x00000000</resetValue>
         </register>
       </registers>
