@@ -324,11 +324,11 @@ transforms:
       from: usbctrl_dpram::(.*)
       to: usb_dpram::$1
   - MergeEnums:
-      from: usb_dpram::vals::Ep\d+(In|Out)(.*)
-      to: usb_dpram::vals::Ep$2
+      from: usb_dpram::vals::Ep(\d+(In|Out)|x)(.*)
+      to: usb_dpram::vals::Ep$3
   - MergeFieldsets:
-      from: usb_dpram::regs::Ep\d+(In|Out)(.*)
-      to: usb_dpram::regs::Ep$2
+      from: usb_dpram::regs::Ep(\d+(In|Out)|x)(.*)
+      to: usb_dpram::regs::Ep$3
   - Rename:
       from: usb_dpram::UsbctrlDpram
       to: usb_dpram::UsbDpram

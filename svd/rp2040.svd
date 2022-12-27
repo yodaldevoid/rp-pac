@@ -33745,6 +33745,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -33814,6 +33823,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -33889,6 +33907,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -33958,6 +33985,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -34033,6 +34069,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -34102,6 +34147,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -34177,6 +34231,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -34246,6 +34309,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -34321,6 +34393,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -34390,6 +34471,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -34465,6 +34555,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -34534,6 +34633,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -34609,6 +34717,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -34678,6 +34795,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -34753,6 +34879,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -34822,6 +34957,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -34897,6 +35041,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -34966,6 +35119,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -35041,6 +35203,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -35110,6 +35281,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -35185,6 +35365,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -35254,6 +35443,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -35329,6 +35527,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -35398,6 +35605,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -35473,6 +35689,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -35542,6 +35767,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -35617,6 +35851,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -35686,6 +35929,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -35761,6 +36013,15 @@
             </field>
             <field>
               <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
+            </field>
+            <field>
+              <access>read-write</access>
               <bitRange>[17:17]</bitRange>
               <description>Trigger an interrupt if a STALL is sent. Intended for debug only.</description>
               <name>INTERRUPT_ON_STALL</name>
@@ -35830,6 +36091,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
@@ -39295,6 +39565,15 @@
                 </enumeratedValue>
               </enumeratedValues>
               <name>ENDPOINT_TYPE</name>
+            </field>
+            <field>
+              <access>read-write</access>
+              <bitRange>[25:16]</bitRange>
+              <description>TThe interval the host controller should poll this\n
+                endpoint. Only applicable for interrupt\n
+                endpoints. Specified in ms - 1. For example: a\n
+                value of 9 would poll the endpoint every 10ms.</description>
+              <name>INTERRUPT_INTERVAL</name>
             </field>
             <field>
               <access>read-write</access>
